@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SiteComponent } from './site/site.component';
 import { AdminComponent } from './admin/admin.component';
 import { NgwWowModule } from 'ngx-wow';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,10 @@ const routes: Routes = [
     path: 'admin',
     component: AdminComponent
   },
-  
+  {
+    path: 'contact',
+    component: ContactComponent
+  },
   { path: '**', component: SiteComponent }
 ];
 
@@ -30,7 +34,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     SiteComponent,
-    AdminComponent
+    AdminComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

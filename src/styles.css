@@ -474,8 +474,6 @@ ol li {
     height: 60px;
     top: -42px;
     left: -5%;
-    -webkit-transform: rotate(-1deg);
-            transform: rotate(-1deg);
     z-index: 100 !important;
   }
 }
@@ -643,9 +641,9 @@ ol li {
 
 /* Header CSS */
 .header-area {
+  background-color: #0d6efd;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  background-color: transparent;
   position: fixed;
   width: 100%;
   top: 0;
@@ -1431,7 +1429,7 @@ ol li {
   border-radius: 0.75rem;
 }
 
-@media only screen and (min-width:992px) {
+/* @media only screen and (min-width:992px) {
   .about-content .col-12:nth-child(2) .about-card {
     -webkit-transform: translateY(48px);
             transform: translateY(48px);
@@ -1442,7 +1440,7 @@ ol li {
     -webkit-transform: translateY(48px);
             transform: translateY(48px);
   }
-}
+} */
 
 .single-about-item .icon img {
   max-height: 3rem;
