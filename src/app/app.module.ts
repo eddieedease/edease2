@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SiteComponent } from './site/site.component';
 import { AdminComponent } from './admin/admin.component';
+import { NgwWowModule } from 'ngx-wow';
 
 
 const routes: Routes = [
@@ -35,7 +36,8 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    NgwWowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
