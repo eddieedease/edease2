@@ -508,7 +508,6 @@ ol li {
 }
 .section-heading h6 {
   color: #8480ae;
-  text-transform: capitalize;
 }
 @media only screen and (min-width:992px) {
   .section-heading h6 {
